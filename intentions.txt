@@ -1,0 +1,18 @@
+Jeg ønsker å lage to separate program. Det ene kjører på en server, og vil samle tekstmeldinger fra det andre
+programmet som vil kunne sende meldinger og vise samtlige meldinger innsendt. Under følger en liste med funksjonalitet
+for de to programmene. Denne kan, og vil, kontinuerlig endres ettersom jeg lærer mer om hvordan nettverk og programmering
+fungerer og hvor mye jeg får til.
+
+1. Server:
+Kontinuerlig lytte etter innkommende meldinger.
+Lagre innkommende meldinger med en rekke attributter: Tidspunkt, Bruker, Tekstinnhold.
+Sende tilbake til klient en oppdatert logg,
+
+2. Klient:
+Kontinuerlig lytte etter oppdateringer fra server.
+Sende meldinger med nytt innhold.
+Vise frem loggen.
+Ta imot nye meldinger fra IO. 
+
+3. Kommunikasjon mellom Klient og server:
+Finne et bibliotek til å håndtere dette i første omgang, videre fikling kan gjøres etter suksess med V_1.
